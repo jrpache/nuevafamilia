@@ -39,7 +39,7 @@
 </head>
 <body>
     <!-- header -->
-    <div id="header--fixed" class="header">
+    <!-- <div id="header--fixed" class="header">
         <div class="nav-top">
             <div class="container">
                 <div class="row">
@@ -89,13 +89,13 @@
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="language">
                                 <li><a href="#">SPN</a></li>
-                                <!-- <li><a href="#">GER</a></li> -->
+                                <li><a href="#">GER</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div id="main-nav" class="main-nav">
             <nav class="navbar navbar-default">
@@ -112,7 +112,7 @@
                         <a class="navbar-brand" href="index.html"><span style="color:blue" font-family:"'Lato', sans-serif;" font-size="40px">Casa del Niño "Nueva Familia"</span></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
-                        <ul class="nav navbar-nav navbar-left">
+                        <ul class="nav navbar-nav navbar-left" id="header-main-nav">
                             <li><a href="index.html">Inicio</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Paginas <span class="caret"></span></a>
@@ -169,12 +169,12 @@
                             </li> -->
                             <li><a href="contact.html">Contacto</a></li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right hidden-xs">
+                        <!-- <ul class="nav navbar-nav navbar-right hidden-xs">
                             <li class="top-cart">
                                 <i class="fa fa-shopping-bag"></i>
                                 <a href="cart.html" class="top-amount">$0.00</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </nav>
@@ -187,10 +187,10 @@
             <div class="page-title-overlay"></div>
             <div class="page-title-info">
                 <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li class="active">Contact Us</li>
+                    <li><a href="#">Inicio</a></li>
+                    <li class="active">Contacto</li>
                 </ol>
-                <h1 class="page-title">Contact Us</h1>
+                <h1 class="page-title">Contacto </h1>
             </div>
         </div>
     </div>
@@ -204,13 +204,13 @@
                         <div class="g-maps">
                             <div id="map" style="height: 291px"></div>
                         </div>
-                        <h3 class="head-title">Head office</h3>
-                        <p>2129 Mulberry Lane
-                            <br>Fort Lauderdale, FL 33301, USA
+                        <h3 class="head-title">Oficina Principal</h3>
+                        <p>Matheu 1772, Partido de Tigre,
+                            <br>Buenos Aires, Argentina.
                             <br>
-                            <i class="fa fa-phone"></i>555.555.1234
+                            <i class="fa fa-phone"></i>+54 011 731-8043
                             <br>
-                            <i class="fa fa-envelope"></i>hello@example.com</p>
+                            <i class="fa fa-envelope"></i>info@nuevafamilia.org</p>
                     </div>
                     <div class="contact-branch mg-bottom-50">
                         <div class="branch-office col-md-6">
@@ -234,17 +234,17 @@
                     </div>
                 </div>
                 <div class="col-sm-6 contact-main mg-bottom-50">
-                    <h3 class="form-title">Contact form</h3>
+                    <h3 class="form-title">Formulario de contacto</h3>
                     <form class="contact-form" action="#" method="POST">
-                        <label class="contact-title" for="message">Message</label>
-                        <textarea id="message" name="message" class="input-message" rows="7" cols="30" placeholder="Type message here........."></textarea>
-                        <label class="contact-title" for="name">Full Name</label>
-                        <input id="name" name="name" class="input" type="text" placeholder="Full name" />
-                        <label class="contact-title" for="email">Email address</label>
-                        <input id="email" name="email" class="input" type="text" placeholder="example@gmail.com" />
-                        <label class="contact-title" for="Website">Website</label>
-                        <input id="Website" name="website" class="input" type="text" placeholder="http//:www.example.com" />
-                        <input class="btn" type="submit" value="SUBMIT" />
+                        <label class="contact-title" for="message">Mensage</label>
+                        <textarea id="message" name="message" class="input-message" rows="7" cols="30" placeholder="Escriba aqui su mensage ..."></textarea>
+                        <label class="contact-title" for="name">Nombre completo</label>
+                        <input id="name" name="name" class="input" type="text" placeholder="Nombre completo" />
+                        <label class="contact-title" for="email">Direccion de Email</label>
+                        <input id="email" name="email" class="input" type="text" placeholder="ejemplo@gmail.com" />
+                        <label class="contact-title" for="Website">Telefono</label>
+                        <input id="Website" name="website" class="input" type="text" placeholder="+54 000 000-0000" />
+                        <input class="btn" type="submit" value="Enviar" />
                     </form>
                 </div>
             </div>
@@ -263,7 +263,7 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 footer-widget">
                         <div class="footer-logo">
-                            <img class="retina" src="images/logo-footer.png" alt="logo">
+                            <img class="retina" src="logo/nuevaFamilia_LogoFooter6.png" alt="logo">
                             <p>Lorem ipsum dolor sit amet, his ferri probatus neglegentur te, eum affert legere nominavi ad, eu enim semper dictas ius. Legimus delicata an sit. Sea ex nonumes molestie. Cu salutandi scribentur.</p>
                             <div class="footer-social">
                                 <a href="#"><i class="fa fa-twitter-square"></i></a>
@@ -275,21 +275,27 @@
                     </div>
                     <div class="col-md-3 col-sm-6 footer-widget">
                         <div class="footer-address">
-                            <h3 class="footer-title">Office address</h3>
-                            <p>123 Imaginary Drive Danbury,
-                                <br> Connecticut, USA</p>
+                            <h3 class="footer-title">Dirección de Oficina</h3>
+                            <p>Matheu 1772, Partido de Tigre,
+                                <br>Buenos Aires, Argentina. </p>
                             <p>
-                                <i class="fa fa-phone"></i>555.555.1234
+                                <i class="fa fa-phone"></i>+54 011 731-8043
                                 <br>
-                                <i class="fa fa-envelope-o"></i>hello@example.com
+                                <i class="fa fa-envelope-o"></i>info@nuevafamilia.org
                             </p>
                             <div class="footer-map">
                                 <a href="contact.html"><i class="fa fa-map-marker"></i>See in map</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 footer-widget">
-                        <h3 class="footer-title">Quick link</h3>
+                    <div class="col-md-6 col-sm-6 footer-widget">
+                        <div class="g-maps">
+                            <div id="map" style="height: 291px"></div> <!-- no se por que no funciona -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-3 col-sm-6 footer-widget">
+                        <h3 class="footer-title">Que va aca???</h3>
                         <ul>
                             <li><a href="#">Dolor sit amet, his ferri</a></li>
                             <li><a href="#">probatus neglegentur te,</a></li>
@@ -300,7 +306,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3 col-sm-6 footer-widget">
-                        <h3 class="footer-title">Anual reports</h3>
+                        <h3 class="footer-title">Reportes Anuales</h3>
                         <ul>
                             <li><a href="#">Reports 2016</a></li>
                             <li><a href="#">Commercial reports 2015,</a></li>
@@ -309,7 +315,7 @@
                             <li><a href="#">Financial report 2014</a></li>
                             <li><a href="#">Technical report 2015</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -317,8 +323,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <span><a href="#">Tarms & Condition</a></span>
-                        <span>&copy; 2017 beCharity</span>
+                        <!-- <span><a href="#">Tarms & Condition</a></span>
+                        <span>&copy; 2017 beCharity</span> -->
+                        <span>Casa del niño "Nueva Familia" ONG sin fines de lucro</span>
                     </div>
                 </div>
             </div>
